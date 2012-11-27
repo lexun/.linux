@@ -1,0 +1,19 @@
+call pathogen#infect()
+filetype indent plugin on
+syntax on
+colo vibrantink
+colo molokai
+set hlsearch
+set showcmd
+set wildmenu
+set ignorecase
+set smartcase
+set autoindent
+set backspace=indent,eol,start
+set nostartofline
+set mouse=a
+set number
+set pastetoggle=<F11>
+set shiftwidth=2
+set softtabstop=2
+set expandtab
