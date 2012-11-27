@@ -62,7 +62,7 @@ alias cbssh="cat ~/.ssh/id_rsa.pub | cb"
 # Copy current working directory
 alias cbwd="pwd | cb"  
 # Copy most recent command in bash history
-alias cbhs="cat $HISTFILE | tail -n 1 | cb"  
+alias cbhs="cat $HISTFILE | tail -n 2 | sed -n 1p | sed -r 's/^:.{0,14};//' | cb"
 
 # Color output shortcuts
 alias grep='grep -n --color=auto'
