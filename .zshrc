@@ -10,7 +10,7 @@ ZSH_THEME="miloshadzic"
 # Add vim as default editor
 export EDITOR=vim
 
-archbey -c white
+# archbey -c white
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-z1sh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -76,11 +76,15 @@ eval $(dircolors -b)
 alias mars='rdesktop -g 1440x900 -P -z -x l -d main -u administrator -p - mars.main.emyth.com'
 alias mercury='rdesktop -g 1440x900 -P -z -x l -d main -u administrator -p - mercury.main.emyth.com'
 alias jupiter='rdesktop -g 1440x900 -P -z -x l -d main -u administrator -p - jupiter.main.emyth.com'
+alias emanager='rdesktop -g 1440x900 -P -z -x l -d main -u administrator -p - 192.168.0.9'
 
 # Other aliases
 alias reflect='sudo reflector -l 5 --sort rate --save /etc/pacman.d/mirrorlist'
 alias config='git --git-dir=/home/luke/.config.git/ --work-tree=/home/luke'
 
+# Keybinds
+bindkey "^[OH" beginning-of-line
+bindkey "^[OF" end-of-line
 
 # Other customizations
 # ------------------------------------------------
@@ -88,3 +92,4 @@ export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/bi
 export PATH="$HOME/.rbenv/bin:$PATH"
 export LESS="-R"
 eval "$(rbenv init -)"
+
