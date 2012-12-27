@@ -83,6 +83,8 @@ alias reflect='sudo reflector -l 5 --sort rate --save /etc/pacman.d/mirrorlist'
 alias config='git --git-dir=/home/luke/.config.git/ --work-tree=/home/luke'
 
 # Keybinds
+bindkey -v
+bindkey '^R' history-incremental-search-backward
 bindkey "^[OH" beginning-of-line
 bindkey "^[OF" end-of-line
 
