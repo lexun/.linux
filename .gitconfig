@@ -7,3 +7,5 @@
 	helper = cache --timeout=3600
 [core]
 	excludesfile = /home/luke/.gitignore
+[push]
+	default = matching
