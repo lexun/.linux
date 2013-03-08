@@ -79,7 +79,7 @@ alias jupiter='rdesktop -g 1440x900 -P -z -x l -d main -u administrator -p - jup
 alias emanager='rdesktop -g 1440x900 -P -z -x l -d main -u administrator -p - 192.168.0.9'
 
 # Other aliases
-alias reflect='sudo reflector -l 5 --sort rate --save /etc/pacman.d/mirrorlist'
+alias reflect='sudo reflector -l 200 -p http --sort rate --save /etc/pacman.d/mirrorlist'
 alias config='git --git-dir=/home/luke/.config.git/ --work-tree=/home/luke'
 
 # Keybinds
