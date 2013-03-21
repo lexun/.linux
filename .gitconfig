@@ -8,4 +8,4 @@
 [core]
 	excludesfile = /home/luke/.gitignore
 [push]
-	default = matching
+	default = simple
