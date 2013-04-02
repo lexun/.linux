@@ -63,6 +63,8 @@ alias cbssh="cat ~/.ssh/id_rsa.pub | cb"
 alias cbwd="pwd | cb"  
 # Copy most recent command in bash history
 alias cbhs="cat $HISTFILE | tail -n 2 | sed -n 1p | sed -r 's/^:.{0,14};//' | cb"
+# Copy git branch name from partial match
+function cbn() { git br | grep "$@" | head -n 1 | sed -r 's/[0-9]:\*?\s+//' | cb }
 
 # Color output shortcuts
 alias grep='grep -n --color=auto'
