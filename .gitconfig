@@ -6,7 +6,7 @@
 [credential]
 	helper = cache --timeout=3600
 [core]
-	excludesfile = /home/luke/.gitignore
+	excludesfile = /home/luke/.gitexclude
 [push]
 	default = simple
 [alias]
