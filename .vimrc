@@ -72,6 +72,7 @@ set formatoptions=n
 
 " check to make sure vim has been compiled with colorcolumn support
 " before enabling it
+highlight ColorColumn ctermbg=7
 if exists("+colorcolumn")
   set colorcolumn=80
 endif
@@ -207,8 +208,8 @@ map <F2> :ConqueTerm zsh<CR>
 nnoremap <silent> <F3> :YRShow<cr>
 inoremap <silent> <F3> <ESC>:YRShow<cr>
 
-" Press F5 to toggle GUndo tree
-nnoremap <F5> :GundoToggle<CR>
+" Press F5 to remove extra whitespace
+nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
 
 " indent file and return cursor and center cursor
 map   <silent> <F6> mmgg=G`m^zz
@@ -378,3 +379,6 @@ endif
 autocmd! bufwritepost .vimrc source %
 autocmd! bufwritepost vimrc source %
 
+" Show trailing whitepace and spaces before a tab:
+highlight ExtraWhitespace ctermbg=red guibg=red
+autocmd Syntax * syn match ExtraWhitespace /\s\+$\| \+\ze\t/ containedin=ALL
