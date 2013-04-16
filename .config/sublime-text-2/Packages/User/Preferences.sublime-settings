@@ -1,8 +1,9 @@
 // Settings in here override those in "Default/Preferences.sublime-settings", and
 // are overridden in turn by file type specific settings.
 {
-  "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+  "color_scheme": "Packages/Theme - Flatland/Flatland.tmTheme",
   "ignored_packages": [""],
   "tab_size": 2,
+  "theme": "Flatland.sublime-theme",
   "translate_tabs_to_spaces": true
 }

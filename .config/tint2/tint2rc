@@ -23,7 +23,7 @@ border_color = #212121 0
 #---------------------------------------------
 # PANEL
 #---------------------------------------------
-panel_monitor = 1
+panel_monitor = 3
 panel_position = bottom center
 panel_size = 100% 28
 wm_menu = 1
