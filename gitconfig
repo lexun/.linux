@@ -17,5 +17,6 @@
         cp = cherry-pick
         re = rebase
         me = merge
+        dc = diff --cached
         l  = log --pretty=format:'%Cgreen%h %Creset%s%n'
         lsd = log --graph --decorate --pretty=oneline --abbrev-commit --all
