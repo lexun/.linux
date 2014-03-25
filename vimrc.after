@@ -1,1 +1,3 @@
-:inoremap jk <Esc>
+colorscheme molokai
+
+inoremap jk <Esc>
