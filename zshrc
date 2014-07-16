@@ -85,6 +85,10 @@ alias cbwd="pwd | cb"
 alias cbhs="cat $HISTFILE | tail -n 2 | sed -n 1p | sed -r 's/^:.{0,14};//' | cb"
 # Copy git branch name from partial match
 function cbn() { git br | grep "$@" | head -n 1 | sed -r 's/[0-9]:\*?\s+//' | cb }
+
+# Launch tmux in 256 color mode
+alias tmux="tmux -2"
+
 # Echo the name of the current user
 alias cu="echo $USER"
 
