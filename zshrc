@@ -93,7 +93,7 @@ function cbn() { git br | grep "$@" | head -n 1 | sed -r 's/[0-9]:\*?\s+//' | cb
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git ruby rails rbenv)
 
 source $ZSH/oh-my-zsh.sh
 
