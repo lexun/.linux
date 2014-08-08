@@ -92,6 +92,15 @@ alias tmux="tmux -2"
 # Echo the name of the current user
 alias cu="echo $USER"
 
+# Echo the name of the current user
+alias tree="tree -C"
+
+# Vagrant shortcuts
+alias vh="vagrant halt"
+alias vr="vagrant reload"
+alias vs="vagrant ssh"
+alias vu="vagrant up"
+
 
 # Plugin configuration
 # ------------------------------------------------
