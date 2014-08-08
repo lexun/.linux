@@ -19,3 +19,14 @@ set guioptions-=L  "remove left-hand scroll bar
 nmap <leader>d :bp<bar>sp<bar>bn<bar>bd<CR>
 " close all buffers
 nmap <leader>D :bufdo bd<CR>
+
+" Switch between buffers
+noremap <S-tab> :bp<CR>
+noremap <tab> :bn<CR>
+
+" cycle tabs left and right with ctrl
+nnoremap <C-h> :tabp<CR>
+nnoremap <C-l> :tabn<CR>
+
+" \a to Ack (search in files)
+nnoremap <leader>a :Ack
