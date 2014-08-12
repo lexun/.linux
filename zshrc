@@ -101,6 +101,9 @@ alias vr="vagrant reload"
 alias vs="vagrant ssh"
 alias vu="vagrant up"
 
+# Ruby
+alias guard="bundle exec guard"
+
 
 # Plugin configuration
 # ------------------------------------------------
