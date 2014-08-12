@@ -30,3 +30,6 @@ nnoremap <C-l> :tabn<CR>
 
 " \a to Ack (search in files)
 nnoremap <leader>a :Ack
+
+" disable 'assigned but unused variable' warnings
+let g:syntastic_quiet_messages = { "regex": 'assigned but unused' }
