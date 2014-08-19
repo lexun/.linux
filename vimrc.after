@@ -3,6 +3,9 @@ colorscheme molokai
 " shortcuts
 inoremap jk <Esc>
 
+" multiple leaders
+nmap , \
+
 " use relative line numbers
 set relativenumber
 
