@@ -27,6 +27,9 @@ nmap <leader>D :bufdo bd<CR>
 noremap <S-tab> :bp<CR>
 noremap <tab> :bn<CR>
 
+" open a new tab with ctrl-t
+nnoremap <C-t> :tabnew<CR>
+
 " cycle tabs left and right with ctrl
 nnoremap <C-h> :tabp<CR>
 nnoremap <C-l> :tabn<CR>
