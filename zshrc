@@ -136,5 +136,5 @@ export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/X11R6/bin:/usr/
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi
 
