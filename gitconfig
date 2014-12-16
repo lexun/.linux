@@ -10,14 +10,14 @@
 [push]
 	default = simple
 [alias]
-        st = status
-        co = commit
         br = branch
-        ch = checkout
+        ci = commit
+        co = checkout
         cp = cherry-pick
-        re = rebase
-        me = merge
         dc = diff --cached
+        me = merge
+        re = rebase
+        st = status
         l  = log --pretty=format:'%Cgreen%h %Creset%s%n'
         lsd = log --graph --decorate --pretty=oneline --abbrev-commit --all
 [web]
