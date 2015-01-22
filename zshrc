@@ -102,8 +102,11 @@ alias vs="vagrant ssh"
 alias vu="vagrant up"
 
 # Ruby
+alias be="bundle exec"
 alias guard="bundle exec guard"
 
+# Get wireless IP address
+alias myip="ip addr show wlp5s0 | grep inet | grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}' | head -n 1"
 
 # Plugin configuration
 # ------------------------------------------------
