@@ -43,5 +43,7 @@ let g:syntastic_quiet_messages = { "regex": 'assigned but unused' }
 " don't apply max file limit to ctrlp
 let g:ctrlp_max_files=0
 
+let g:NERDSpaceDelims=1
+
 " unmap NarrowRegion to remove NERDTree delay
 unmap <leader>nr
