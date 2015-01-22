@@ -122,7 +122,8 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 # ------------------------------------------------
 
-export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/X11R6/bin:/usr/games:/usr/lib/mit/bin:/usr/bin/vendor_perl
+export PATH=$PATH:/home/luke/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11
+export PATH=$PATH:/usr/X11R6/bin:/usr/games:/usr/lib/mit/bin:/usr/bin/vendor_perl
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # # Preferred editor for local and remote sessions
